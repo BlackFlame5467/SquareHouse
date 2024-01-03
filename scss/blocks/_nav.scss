@@ -1,0 +1,34 @@
+header {
+    background: $main-bg;
+    padding: 12px 0;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 56px;
+}
+.nav_link {
+    color: $main-text;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color .3s ease-in;
+}
+
+.nav_link:hover, .header_log:hover {
+    color: $hover-text;
+}
+
+.header_log {
+    margin: 0 40px 0 0;
+    color: $main-text;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: color .3s ease-in;
+}

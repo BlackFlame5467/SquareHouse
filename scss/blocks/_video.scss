@@ -1,0 +1,24 @@
+.video {
+    padding: 125px 0;
+    background: url(./../img/video/video-bg.jpg) center / cover no-repeat;
+}
+.video_title {
+    max-width: 330px;
+    margin:  0 auto 20px;
+}
+.video_subtitle {
+    line-height: 1.2;
+    margin: 0 auto 20px;
+    max-width: 390px;
+    text-align: center;
+}
+.video_link {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2; /* 120% */
+    text-decoration: underline !important; 
+    text-transform: uppercase;
+    color: $main-text;
+
+}

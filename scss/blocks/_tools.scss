@@ -1,0 +1,36 @@
+.tools {
+    padding: 45px 0 77px 0;
+    color: $second-text;
+    background: $second-bg;
+}
+
+.tools_logo {
+    margin: 0 0 4px 0;
+}
+.tools_title {
+    margin: 0 0 22px 0;
+}
+.tools_subtitle {
+    max-width: 570px;
+    margin: 0 auto 77px ;
+    text-align: center;
+    line-height: 1.2;
+}
+.tool_list {
+    display: flex;
+    justify-content: space-between;
+}
+.tool {
+}
+.tool_img {
+    margin: 0 0 40px 0;
+}
+.tool_title {
+    font-size: 28px;
+    line-height: 1.2; /* 33.6/28 */
+}
+.tool_text {
+    font-size: 18px;
+    line-height: 1.2; /* 21.6/18 */
+    max-width: 427px;
+}
